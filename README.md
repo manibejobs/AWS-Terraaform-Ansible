@@ -3,8 +3,8 @@ Terraform scripts to provision AWS infra and Ansible playbook to download/instal
 
 $ terraform init 
 
-$ terraform apply -var-file="secret.tfvars" 
-
 $ terraform plan
+
+$ terraform apply -var-file="secret.tfvars" 
 
 $ terraform apply
