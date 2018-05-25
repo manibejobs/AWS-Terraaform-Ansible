@@ -5,6 +5,6 @@ $ terraform init
 
 $ terraform plan
 
-$ terraform apply -var-file="secret.tfvars" 
+$ terraform apply -var-file="terraform.tfvars" 
 
 $ terraform apply
